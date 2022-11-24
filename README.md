@@ -1,11 +1,5 @@
-### Hi there, my name is Jorge David Diaz 👋
-
-Frontend developer with knowledge in HTML5, CSS3, JavScript, Reactjs, Styled-Components, Redux, Bootstrap and more.
-
-What I like most about my career is making products that have utility and help people to make their lives better.
-
-I'm currently studying Nodejs and TypeScript.
-
-You can go to my website here : https://mi-pagina-personal.vercel.app/
-
-
+          I am a web developer, who loves to learn every day, best practices,
+          technologies and algorithms, passionate about web 3. I have many
+          experiences in creating websites using different frameworks and
+          technologies. I have created many websites using React.js, Node.js,
+          TypeScript, JavaScript, HTML, CSS, Bootstrap, Tailwind CSS and others.
