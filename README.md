@@ -216,19 +216,6 @@ Things I actually reach for — not everything I've ever opened.
 
 ---
 
-## 📊 Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=JDavidcor23&theme=dark&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" height="165" alt="GitHub stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JDavidcor23&theme=dark&hide_border=true&layout=compact&langs_count=8" height="165" alt="Top languages">
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=JDavidcor23&theme=dark&hide_border=true" alt="Streak">
-</p>
-
----
-
 <p align="center">
   <sub>Spanish (native) · English (B2+, daily with a US-based team) · Bogotá, Colombia — remote</sub>
 </p>
