@@ -66,7 +66,7 @@ fat store re-rendering the canvas on every brush stroke is how you lose those 60
 
 `Next.js 14` · `TypeScript` · `Konva.js` · `Phaser` · `Zustand` · `Tailwind` · `Supabase`
 
-**[→ Live demo](https://pixelforge-teal.vercel.app)** · **[→ Repo](https://github.com/JDavidcor23/pixelforge)**
+**[→ Live demo](https://pixelforge-teal.vercel.app)**
 
 ---
 
