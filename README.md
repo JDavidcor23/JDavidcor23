@@ -70,26 +70,25 @@ fat store re-rendering the canvas on every brush stroke is how you lose those 60
 
 ---
 
-### 🧙 Albus — the agent that runs your agents
+### 🧙 Albus — my personal agent system
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/JDavidcor23/albus_agent/main/docs/logo.png" alt="Albus" width="140">
-</p>
+<img src="https://raw.githubusercontent.com/JDavidcor23/albus_agent/main/docs/architecture.svg" alt="Albus architecture — a hub of small agents on the PC, Albus on WhatsApp on a VPS, and a key vault that is the only place credentials live" width="100%">
 
-<img src="https://raw.githubusercontent.com/JDavidcor23/albus_agent/main/docs/architecture.png" alt="Albus architecture — one agent that reads your rules and dispatches to capabilities" width="100%">
+A small team of AI agents that runs my day: email triage, WhatsApp group digests,
+LinkedIn replies, meeting notes. I talk to it from the terminal, or from WhatsApp
+(text or voice) when I'm away from the PC.
 
-Automation today asks you to think like a plumber. A Zap here, a script there, a cron job
-on a Raspberry Pi you forgot the password to. Six months later you have **forty automations
-and no system** — each knows a sliver of context, none of them know *you*.
+The design rule is **one agent per service, one job per agent.** A Google agent, a
+Notion agent and a WhatsApp agent are the *only* ones holding credentials; every other
+agent asks them, and never sees a token. Google tokens are split by scope, so the agent
+that reads my mail physically can't send any. The PC does the daily AI work on my Claude
+subscription; a VPS keeps Albus awake 24/7 and hands jobs back to the PC through an
+allow-listed bridge.
 
-Albus is a desktop container where those live as agents you can talk to. The design bet
-that makes it different: **an agent is a Markdown file in your folder, not code.** You don't
-configure a `noNightShifts` flag — you write "nothing with Java, and no night shifts" in
-plain English and the agent reads the whole file. Its memory is a text file you can open,
-correct, and delete. A memory only the program understands is a memory you can't audit the
-day it does something strange.
+It's wired to my accounts on purpose: it's here to show how I design automation, not as
+something to install.
 
-`Electron` · `React` · `TypeScript` · `Supabase` · `WebSockets` · `Zod` · `Tesseract.js` · `Cytoscape`
+`TypeScript` · `Node` · `Claude Code` · `Hermes (VPS)` · `Baileys` · `Zod` · `Ink`
 
 **[→ Repo](https://github.com/JDavidcor23/albus_agent)**
 
