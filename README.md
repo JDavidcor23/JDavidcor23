@@ -70,7 +70,7 @@ fat store re-rendering the canvas on every brush stroke is how you lose those 60
 
 ---
 
-### 🧙 Albus — my personal agent system
+### <img src="https://raw.githubusercontent.com/JDavidcor23/albus_agent/main/docs/logo-light.png" alt="Albus logo" width="26" align="center"> Albus — my personal agent system
 
 <img src="https://raw.githubusercontent.com/JDavidcor23/albus_agent/main/docs/architecture.svg" alt="Albus architecture — a hub of small agents on the PC, Albus on WhatsApp on a VPS, and a key vault that is the only place credentials live" width="100%">
 
